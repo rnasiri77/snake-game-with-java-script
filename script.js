@@ -215,7 +215,6 @@ function makeTable(array) {
         table.appendChild(row);
     }
 
-//    document.body.appendChild(table);
     document.getElementById('leaderBord').innerHTML = "";
     document.getElementById('leaderBord').appendChild(table);
 
