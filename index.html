@@ -1,0 +1,56 @@
+<!DOCTYPE html5>
+<html>
+<head>
+<title>Snake Game</title>
+<style>
+   * { padding: 0; margin: 0; }
+    	canvas { background: #eee; display: block; margin: 0 auto; }
+        
+        img {
+  border-radius: 50%;
+}
+
+table, td, th {
+    border: 1px solid black;
+}
+
+table {
+    border-collapse: collapse;
+    width: 80%;
+}
+
+td {
+    
+    vertical-align: center;
+}
+
+tr:nth-child(even) {background-color: #f2f2f2;}
+</style>
+</head>
+<body >
+     <center>
+    <h1>Simple Snake</h1>
+    <canvas id="myCanvas" width="480" height="320"></canvas>
+   
+    <h2><time>00:00:00</time></h2>
+    <button id="start">start</button>
+    <button id="stop">stop</button>
+    </center>
+
+    <img id="scream" src="image.png" hidden>
+    <img id="foodImg" src="food.jpg" hidden >
+    <br>
+    <br>
+
+<center>
+    <h3>leaderBord</h3>
+<div id=leaderBord></div>
+</center>
+
+ <script src="script.js"></script>
+<div id="time"></div>
+ 
+
+
+</body>
+</html>
